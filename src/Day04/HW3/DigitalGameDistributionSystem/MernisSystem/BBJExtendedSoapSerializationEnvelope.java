@@ -27,7 +27,7 @@ import java.io.StringReader;
 import java.io.StringWriter;
 
 
-//If you have a compilation error here then you have to add a reference to ExKsoap2.jar to your project (you can find it in Libs folder in the generated zip file)
+//If you have a compilation error here then you have to register a reference to ExKsoap2.jar to your project (you can find it in Libs folder in the generated zip file)
 public class BBJExtendedSoapSerializationEnvelope extends com.easywsdl.exksoap2.serialization.ExSoapSerializationEnvelope {
     static HashMap< java.lang.String,java.lang.Class> classNames = new HashMap< java.lang.String, java.lang.Class>();
     public static String TAG="easyWSDL";
